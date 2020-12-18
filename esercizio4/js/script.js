@@ -2,8 +2,8 @@
 
 var numero1, numero2;
 
-numero1 = prompt('Inserisci un numero')
-numero2 = prompt('Inserisci un altro numero')
+numero1 = prompt('Inserisci un numero');
+numero2 = prompt('Inserisci un altro numero');
 
 if (numero1 > numero2) {
   console.log(numero1);
