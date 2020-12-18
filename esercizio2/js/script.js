@@ -3,7 +3,7 @@
 var numeri = [];
 
 for (var i = 0; i < 6; i++) {
-  numeroInput = parseInt(prompt('Inserisci un numero'));
+  var numeroInput = parseInt(prompt('Inserisci un numero'));
   if (numeroInput % 2 != 0) {
     numeri.push(numeroInput);
   }
