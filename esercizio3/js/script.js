@@ -1,11 +1,10 @@
 // terzo snack
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-var invitati, nomeInput, toUp, toLow, messaggio;
+var invitati, nomeInput, messaggio;
 
 invitati = ['Nick', 'Daisy', 'Jordan', 'Jay', 'Myrtle'];
 nomeInput = prompt('Inserisci un nome');
-
 nomeInput = nomeInput.charAt(0).toUpperCase() + nomeInput.substring(1).toLowerCase();
 messsaggio = false;
 
